@@ -1,6 +1,8 @@
 <!-- Footer -->
 <footer>
-
+    <div class="texto-footer">
+        Copyright 2019 All Right Reserved By Free html Templates
+    </div>
 </footer>
 
 <!-- JQuery -->

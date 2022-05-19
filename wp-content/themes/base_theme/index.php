@@ -35,13 +35,13 @@
 
             <!-- Imagens Background Carrosel -->
             <div class="carousel-item active">
-                <img class="d-block w-100" src="<?php bloginfo('template_url') ?>/assets/img/carousel-bg-1.png" alt="First slide">
+                <img class="d-block " src="<?php bloginfo('template_url') ?>/assets/img/carousel-bg-1.png" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="<?php bloginfo('template_url') ?>/assets/img/carousel-bg-1.png" alt="Second slide">
+                <img class="d-block" src="<?php bloginfo('template_url') ?>/assets/img/carousel-bg-1.png" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="<?php bloginfo('template_url') ?>/assets/img/carousel-bg-1.png" alt="Third slide">
+                <img class="d-block" src="<?php bloginfo('template_url') ?>/assets/img/carousel-bg-1.png" alt="Third slide">
             </div>
 
 
@@ -157,29 +157,60 @@
     <div class="titulo-balance">
         <h1>A unique balance of luxury life</h1>
     </div>
-
+    <div class="img-balance-mobile">
+                <img src="<?php bloginfo('template_url') ?>/assets/img/img-balance.png" alt="">
+            </div>
     <div class="box-balance">
         <div class="flexMode">
-        <div class="info-balance flexMode">
-            <div>
-                <div class="num-balance">
-                    <div class="flexMode"><span>01</span></div>
+            <div class="info-balance flexMode">
+                <div>
+                    <div class="num-balance">
+                        <div class="flexMode"><span>01</span></div>
+                    </div>
+                    <div class="desc-balance">
+                        It is a long established fact that a reader will
+                        be distracted by the readable content of a page
+                        when looking at its layout. The point of using
+                        Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using
+                        'Content here, content here', making it look
+                    </div>
                 </div>
-                <div class="desc-balance">
-                    It is a long established fact that a reader will
-                    be distracted by the readable content of a page
-                    when looking at its layout. The point of using
-                    Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, as opposed to using
-                    'Content here, content here', making it look
-                </div>
+                <a class="botao-balance" href="">See More</a>
             </div>
-            <a class="botao-balance" href="">See More</a>
+            <div class="img-balance">
+                <img src="<?php bloginfo('template_url') ?>/assets/img/img-balance.png" alt="">
+            </div>
         </div>
-        <div class="img-balance">
-            <img src="<?php bloginfo('template_url') ?>/assets/img/img-balance.png" alt="">
-        </div>
-    </div>
     </div>
 </section>
+
+<!-- Subscribe -->
+<section id="subscribe">
+    <div class="caixa-texto">
+        <div class="titulo-subscribe">
+            <h1>Free Multiporpose <br>Responsive Landing Page 2019</h1>
+        </div>
+
+        <div class="desc-subscribe">
+            It is a long established fact that a reader will be distracted by the
+            readable content of a page when looking at its layout. The point of
+            using Lorem Ipsum is that it has a more-or-less normal distribution
+            of letters, as opposed to using 'Content here, content here', making
+            it look
+        </div>
+    </div>
+
+    <div class="subscribe-area">
+        <div class="titulo-area">
+            <h6>Subscribe to our Newsletter</h6>
+        </div>
+        <div class="flexMode">
+        <input type="text" placeholder="Enter your E-mail">
+        <a href="" class="flexMode"> Submit</a>
+        </div>
+    </div>
+</section>
+
+
 <?php get_footer(); ?>

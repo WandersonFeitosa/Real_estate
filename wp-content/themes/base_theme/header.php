@@ -1,10 +1,11 @@
 <?php
-$dominio= $_SERVER['HTTP_HOST'];
-$urlAtual = "http://" . $dominio. $_SERVER['REQUEST_URI'];
-$urlSite = get_bloginfo('url')."/";
+$dominio = $_SERVER['HTTP_HOST'];
+$urlAtual = "http://" . $dominio . $_SERVER['REQUEST_URI'];
+$urlSite = get_bloginfo('url') . "/";
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<!-- Required meta tags -->
 	<title>Real State</title>
@@ -23,12 +24,27 @@ $urlSite = get_bloginfo('url')."/";
 	<?php wp_head(); ?>
 
 </head>
+
 <body id="top">
 
-<nav>
-	<div class="container">
+	<nav>
+		<div class="menu-itens flexMode">
+			<div class="logo">
+				<a href="#">
+					<img src="<?php bloginfo('template_url') ?>/assets/img/logo.png" alt="">
+				</a>
+			</div>
 
-	</div>
-</nav>
-	
-
+			<ul>
+				<li>
+					<a href="#">Contact us</a>
+				</li>
+				<li>
+					<a href="#">Call: 1234567890</a>
+				</li>
+				<li>
+					<a href="#">Email: demo@gmail.com</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
