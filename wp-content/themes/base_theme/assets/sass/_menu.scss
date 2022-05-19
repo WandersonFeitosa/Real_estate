@@ -37,15 +37,67 @@ nav {
 
 }
 
-
-@media (max-width: 576px) {
-
+.mobile-menu {
+	display: none;
 }
 
+
+@media (max-width: 576px) {}
+
 @media (max-width: 850px) {
-	nav{
+	nav {
 		display: none;
 	}
+
+	.mobile-menu {
+		display: block;
+
+		/* Style the navigation menu */
+		.barra-menu {
+			overflow: hidden;
+			background-color: #333;
+			position: relative;
+
+			.icon {
+				background: black;
+				display: block;
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+
+
+			a {
+				color: white;
+				padding: 14px 25px;
+				text-decoration: none;
+				font-size: 17px;
+				display: block;
+
+				img {
+					width: 20px;
+					filter: invert(1);
+				}
+
+				&:hover {
+					background-color: #ddd;
+					color: black;
+				}
+
+			}
+
+			#links {
+				display: none;
+			}
+		}
+
+
+		.active {
+			background-color: rgba(0, 0, 0, 0.9);
+			color: #140a17;
+		}
+	}
+
 }
 
 @media (max-width: 992px) {

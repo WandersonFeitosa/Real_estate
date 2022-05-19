@@ -2,7 +2,7 @@
 <?php bloginfo('template_url') ?>/
 <?php bloginfo('url') ?>/
 
-//ASF
+//ACF
 <?php the_field('campo') ?>
 <?php the_sub_field('campo') ?>
 <?php get_field('campo') ?>
